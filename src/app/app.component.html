@@ -1,6 +1,13 @@
 <nav>
-    <ul>Login</ul>
-    <ul>Product List</ul>
+    <ul class = "nav">
+      <li>
+       <a [routerLink] = "['/login']">Login</a> 
+      </li>
+      <li>
+        <a [routerLink] = "['/list']">Product List</a>
+      </li>
+    </ul>
+
 </nav>
 
 <router-outlet></router-outlet>
