@@ -1,19 +1,13 @@
 import { TestBed, async } from '@angular/core/testing';
-<<<<<<< HEAD
 import { RouterTestingModule } from '@angular/router/testing';
-=======
->>>>>>> 72472e30a2702a019ad53f6c0a4efa7e7a399334
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-<<<<<<< HEAD
       imports: [
         RouterTestingModule
       ],
-=======
->>>>>>> 72472e30a2702a019ad53f6c0a4efa7e7a399334
       declarations: [
         AppComponent
       ],
