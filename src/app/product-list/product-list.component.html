@@ -83,7 +83,7 @@
   
               </th>
   
-              <th>{{ product.code }}</th>
+              <th><li>{{ product.code }}</li></th>
   
               <th>{{ product.name | uppercase}}</th>
   
@@ -91,7 +91,9 @@
   
               <th>{{ product.available | uppercase}}</th>
   
-              <th>{{product.rating}}</th>
+              <th>
+                <app-rating [rating]="product.rating"> </app-rating>
+              </th>
   
             </tr>
   
