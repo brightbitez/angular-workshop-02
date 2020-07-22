@@ -13,7 +13,7 @@ const routes: Routes = [{
     canActivate: [AuthGuard],
   },
   {
-    path: 'list/products/:name',
+    path: 'list/product/:id',
     component: ProductSpecificComponent
   }
 ];

@@ -1,1 +1,9 @@
-<p>product-specific works!</p>
+<p>Product code: {{product.code}}</p>
+<p>Product Name: {{product.name}}</p>
+
+<p>Price {{product.price}}</p>
+
+<p>Available {{product.available}}</p>
+
+<p>Rating:
+    <app-rating [rating]="product.rating"> </app-rating></p>

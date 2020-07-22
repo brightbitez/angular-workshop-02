@@ -83,7 +83,7 @@
   
               </th>
   
-              <th><li>{{ product.code }}</li></th>
+              <th><a (click) ="onSelect(product)">{{ product.code }}</a></th>
   
               <th>{{ product.name | uppercase}}</th>
   
