@@ -82,13 +82,13 @@
   
               <th>{{ product.code }}</th>
   
-              <th>{{ product.name }}</th>
+              <th>{{ product.name | uppercase}}</th>
   
-              <th>{{ product.price | number:'1.2-2' }}</th>
+              <th>{{ product.price | number:'1.2-2'  }}</th>
   
-              <th>Yes</th>
+              <th>{{ product.available | uppercase}}</th>
   
-              <th>****</th>
+              <th>{{product.rating}}</th>
   
             </tr>
   
