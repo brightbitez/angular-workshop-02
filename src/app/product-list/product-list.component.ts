@@ -8,7 +8,7 @@ import { Product } from './../models/product';
 })
 export class ProductListComponent implements OnInit {
   products: Product[] = [];
-  filterData;
+  filterData: string = "";
   constructor() {
     const p1 = new Product("001", "soap", 123,"yes");
     const p2 = new Product("002", "soap", 123,"yes");
